@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Local Music Venues</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>🎵 Local Music Venues</strong></li>
+        </ul>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <header>
+            <h1>Discover Local Music Venues</h1>
+            <p>Find the perfect spot for live music in your city - from intimate jazz clubs to massive concert halls</p>
+        </header>
+
+        <section id="filters">
+            <div class="grid">
+                <div>
+                    <label for="genreFilter">
+                        Filter by Genre
+                        <select id="genreFilter">
+                            <option value="">All Genres</option>
+                            <option value="Jazz">Jazz</option>
+                            <option value="Electronic">Electronic</option>
+                            <option value="Rock">Rock</option>
+                            <option value="Hip-Hop">Hip-Hop</option>
+                            <option value="Classical">Classical</option>
+                            <option value="Folk">Folk/Acoustic</option>
+                        </select>
+                    </label>
+                </div>
+                <div>
+                    <label for="capacityFilter">
+                        Venue Size
+                        <select id="capacityFilter">
+                            <option value="">All Sizes</option>
+                            <option value="small">Small (< 200)</option>
+                            <option value="medium">Medium (200-1000)</option>
+                            <option value="large">Large (> 1000)</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+        </section>
+
+        <section id="venues-grid" class="venues-container">
+        </section>
+    </main>
+
+    <footer class="container">
+        <p>&copy; 2024 Local Music Venues. Made with ♪ for music lovers.</p>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

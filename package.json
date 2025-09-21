@@ -1,0 +1,17 @@
+{
+  "name": "local-music-venues",
+  "version": "1.0.0",
+  "description": "Discover local music venues and upcoming concerts",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": ["music", "venues", "concerts", "events"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
